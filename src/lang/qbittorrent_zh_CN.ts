@@ -4861,7 +4861,7 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../base/net/geoipmanager.cpp" line="200"/>
         <source>China</source>
-        <translation>中国</translation>
+        <translation>中国大陆</translation>
     </message>
     <message>
         <location filename="../base/net/geoipmanager.cpp" line="201"/>
@@ -5091,7 +5091,7 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../base/net/geoipmanager.cpp" line="247"/>
         <source>Hong Kong</source>
-        <translation>香港</translation>
+        <translation>香港特别行政区</translation>
     </message>
     <message>
         <location filename="../base/net/geoipmanager.cpp" line="248"/>
@@ -5731,7 +5731,7 @@ Minimum requirement: %2.</source>
     <message>
         <location filename="../base/net/geoipmanager.cpp" line="300"/>
         <source>Macao</source>
-        <translation>澳门</translation>
+        <translation>澳门特别行政区</translation>
     </message>
     <message>
         <location filename="../base/net/geoipmanager.cpp" line="333"/>

@@ -2884,7 +2884,7 @@ Er unterstützt die Formate: S01E01, 1x1, 2017.12.31 und 31.12.2017 (Datumsforma
     <message>
         <location filename="../app/cmdoptions.cpp" line="503"/>
         <source>[options] [(&lt;filename&gt; | &lt;url&gt;)...]</source>
-        <translation>[Optionen] [(&lt;filename&gt; | &lt;url&gt;)...]</translation>
+        <translation>[Optionen] [(&lt;filename&gt; | &lt;url&gt;) ...]</translation>
     </message>
     <message>
         <location filename="../app/cmdoptions.cpp" line="505"/>
@@ -11110,7 +11110,7 @@ Please choose a different name and try again.</source>
     <message>
         <location filename="../gui/torrentcreatordialog.cpp" line="360"/>
         <source>Reason: &quot;%1&quot;</source>
-        <translation>Grund: „%1“</translation>
+        <translation>Grund: &quot;%1“</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordialog.cpp" line="361"/>
@@ -13130,7 +13130,7 @@ Please choose a different name and try again.</source>
         <location filename="../base/utils/misc.cpp" line="63"/>
         <source>TiB</source>
         <comment>tebibytes (1024 gibibytes)</comment>
-        <translation>TB</translation>
+        <translation>TiB</translation>
     </message>
     <message>
         <location filename="../base/utils/misc.cpp" line="64"/>

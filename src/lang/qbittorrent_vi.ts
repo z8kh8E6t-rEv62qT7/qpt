@@ -4394,7 +4394,7 @@ Yêu cầu tối thiểu: %2.</translation>
         <location filename="../gui/mainwindow.cpp" line="1875"/>
         <source>DL speed: %1</source>
         <comment>e.g: Download speed: 10 KiB/s</comment>
-        <translation>Tốc độ TX: %1</translation>
+        <translation>Tốc độ tải xuống: %1</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.cpp" line="1876"/>

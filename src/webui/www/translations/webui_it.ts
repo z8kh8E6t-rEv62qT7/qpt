@@ -52,7 +52,7 @@
     </message>
     <message>
         <source>Metadata received</source>
-        <translation>Ricevuti metadati</translation>
+        <translation>Metadati ricevuti</translation>
     </message>
     <message>
         <source>Files checked</source>
@@ -226,7 +226,7 @@
     </message>
     <message>
         <source>New Category</source>
-        <translation>Nuova Categoria</translation>
+        <translation>Nuova categoria</translation>
     </message>
     <message>
         <source>Edit category...</source>
@@ -313,15 +313,15 @@
     </message>
     <message>
         <source>More information</source>
-        <translation>Più informazioni</translation>
+        <translation>Maggiori info</translation>
     </message>
     <message>
         <source>Information about certificates</source>
-        <translation>Informazioni sui certificati</translation>
+        <translation>Info sui certificati</translation>
     </message>
     <message>
         <source>Set location</source>
-        <translation>Imposta posizione</translation>
+        <translation>Imposta percorso</translation>
     </message>
     <message>
         <source>Monday</source>
@@ -412,7 +412,8 @@
     </message>
     <message>
         <source>Unable to add peers. Please ensure you are adhering to the IP:port format.</source>
-        <translation>Impossibile aggiungere peer. Assicurati che corrispondano allo standard IP:porta.</translation>
+        <translation>Impossibile aggiungere peer. 
+Assicurati che corrispondano allo standard IP:porta.</translation>
     </message>
     <message>
         <source>Name cannot be empty</source>
@@ -652,7 +653,7 @@ Per un funzionamento corretto della WebUI va abilitato JavaScript.</translation>
     </message>
     <message>
         <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Sei sicuro di voler uscire da qBittorrent?</translation>
+        <translation>Vuoi uscire da qBittorrent?</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>

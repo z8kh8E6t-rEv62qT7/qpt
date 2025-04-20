@@ -13053,7 +13053,7 @@ Válasszon egy másik nevet és próbálja újra. </translation>
     <message>
         <location filename="../webui/webapplication.cpp" line="924"/>
         <source>WebUI: Invalid Host header, port mismatch. Request source IP: &apos;%1&apos;. Server port: &apos;%2&apos;. Received Host header: &apos;%3&apos;</source>
-        <translation>WebUI: Érvénytelen Kiszolgáló fejléc, port eltérés. Forrást kérő IP: &apos;%1&apos;. Kiszolgáló port: &apos;%2&apos;. Fogadott Kiszolgáló fejléc: &apos;%3&apos;</translation>
+        <translation>WebUI: Érvénytelen Kiszolgáló fejléc, port eltérés. Forrást kérő IP: &apos;%1&apos;. Szerver port: &apos;%2&apos;. Fogadott Kiszolgáló fejléc: &apos;%3&apos;</translation>
     </message>
     <message>
         <location filename="../webui/webapplication.cpp" line="945"/>

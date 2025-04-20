@@ -3962,7 +3962,7 @@ Stöder formaten: S01E01, 1x1, 2017.12.31 och 31.12.2017 (datumformatet stöder 
     <message>
         <location filename="../gui/mainwindow.ui" line="382"/>
         <source>&amp;Suspend System</source>
-        <translation>&amp;Försätt systemet i vänteläge</translation>
+        <translation>Försätt s&amp;ystemet i vänteläge</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.ui" line="390"/>

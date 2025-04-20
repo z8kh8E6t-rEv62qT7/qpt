@@ -24,7 +24,7 @@
     </message>
     <message>
         <source>Torrent Management Mode:</source>
-        <translation>Modo de gestão de torrent:</translation>
+        <translation>Modo de gestão do torrent:</translation>
     </message>
     <message>
         <source>Content layout:</source>
@@ -460,7 +460,7 @@
     </message>
     <message>
         <source>Could not contact qBittorrent</source>
-        <translation type="unfinished" />
+        <translation>Não foi possível contatar o qBittorrent</translation>
     </message>
     <message>
         <source>Remember choice</source>
@@ -787,11 +787,11 @@
     </message>
     <message>
         <source>Would you like to start all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Gostaria de iniciar todos os torrents?</translation>
     </message>
     <message>
         <source>Start</source>
-        <translation type="unfinished" />
+        <translation>Iniciar</translation>
     </message>
     <message>
         <source>Manage Cookies...</source>
@@ -807,15 +807,15 @@
     </message>
     <message>
         <source>Would you like to stop all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Gostaria de parar todos os torrents?</translation>
     </message>
     <message>
         <source>Start All</source>
-        <translation type="unfinished" />
+        <translation>Iniciar todos</translation>
     </message>
     <message>
         <source>Stop All</source>
-        <translation type="unfinished" />
+        <translation>Parar todos</translation>
     </message>
     <message>
         <source>Torrent Creator</source>
@@ -970,11 +970,11 @@
     </message>
     <message>
         <source>Maximum number of upload slots per torrent:</source>
-        <translation>Número máximo de slots de upload por torrent:</translation>
+        <translation>Número máximo de slots de envio por torrent:</translation>
     </message>
     <message>
         <source>Global maximum number of upload slots:</source>
-        <translation>Número máximo de slots de upload por torrent:</translation>
+        <translation>Número máximo global de slots de envio:</translation>
     </message>
     <message>
         <source>Proxy Server</source>
@@ -1006,7 +1006,7 @@
     </message>
     <message>
         <source>Use proxy for peer connections</source>
-        <translation>Utilizar um proxy para ligações aos pares</translation>
+        <translation>Utilizar um proxy para ligações às fontes</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -1018,7 +1018,7 @@
     </message>
     <message>
         <source>Apply to trackers</source>
-        <translation>Aplicar aos trackers</translation>
+        <translation>Aplicar aos rastreadores</translation>
     </message>
     <message>
         <source>Global Rate Limits</source>
@@ -1026,15 +1026,15 @@
     </message>
     <message>
         <source>Upload:</source>
-        <translation>Upload:</translation>
+        <translation>Envio:</translation>
     </message>
     <message>
         <source>Download:</source>
-        <translation>Download:</translation>
+        <translation>Transferência:</translation>
     </message>
     <message>
         <source>Alternative Rate Limits</source>
-        <translation>Limites alternativos de rácio</translation>
+        <translation>Limites de rácio alternativo</translation>
     </message>
     <message>
         <source>From:</source>
@@ -1080,15 +1080,15 @@
     </message>
     <message>
         <source>Enable DHT (decentralized network) to find more peers</source>
-        <translation>Ativar DHT (rede descentralizada) para encontrar mais pares</translation>
+        <translation>Ativar DHT (rede descentralizada) para encontrar mais fontes</translation>
     </message>
     <message>
         <source>Enable Peer Exchange (PeX) to find more peers</source>
-        <translation>Ativar a 'Troca de pares' (PeX) para encontrar mais pares</translation>
+        <translation>Ativar a 'Troca de Fontes' (PeX) para encontrar mais fontes</translation>
     </message>
     <message>
         <source>Enable Local Peer Discovery to find more peers</source>
-        <translation>Ativar 'Descoberta de pares locais' para encontrar mais pares</translation>
+        <translation>Ativar 'Descoberta de fontes locais' para encontrar mais fontes</translation>
     </message>
     <message>
         <source>Encryption mode:</source>
@@ -1112,7 +1112,7 @@
     </message>
     <message>
         <source>Maximum active uploads:</source>
-        <translation>Nº máximo de uploads ativos:</translation>
+        <translation>Máximo de envios ativos:</translation>
     </message>
     <message>
         <source>Maximum active torrents:</source>
@@ -1208,11 +1208,11 @@
     </message>
     <message>
         <source>Download rate threshold:</source>
-        <translation>Limite do rácio de download:</translation>
+        <translation>Limite do rácio de transferência:</translation>
     </message>
     <message>
         <source>Upload rate threshold:</source>
-        <translation>Limite do rácio de upload:</translation>
+        <translation>Limite da taxa de envio:</translation>
     </message>
     <message>
         <source>Change current password</source>
@@ -1228,11 +1228,11 @@
     </message>
     <message>
         <source>Do not start the download automatically</source>
-        <translation>Não iniciar automaticamente o download</translation>
+        <translation>Não iniciar a transferência automaticamente</translation>
     </message>
     <message>
         <source>Switch torrent to Manual Mode</source>
-        <translation>Mudar torrent para o 'Modo manual'</translation>
+        <translation>Mudar o torrent para o 'Modo manual'</translation>
     </message>
     <message>
         <source>When Torrent Category changed:</source>
@@ -1244,7 +1244,7 @@
     </message>
     <message>
         <source>Apply rate limit to peers on LAN</source>
-        <translation>Aplicar o rácio limite para os pares em LAN</translation>
+        <translation>Aplicar o limite de rácio às fontes nas ligações LAN</translation>
     </message>
     <message>
         <source>0 means unlimited</source>
@@ -1260,7 +1260,7 @@
     </message>
     <message>
         <source>Enable Host header validation</source>
-        <translation>Ativar a validação do cabeçalho do servidor</translation>
+        <translation>Ativar a validação do cabeçalho do Host</translation>
     </message>
     <message>
         <source>Security</source>
@@ -1464,7 +1464,7 @@
     </message>
     <message>
         <source>ban for:</source>
-        <translation>banir por:</translation>
+        <translation>banir durante:</translation>
     </message>
     <message>
         <source>Ban client after consecutive failures:</source>
@@ -1484,7 +1484,7 @@
     </message>
     <message>
         <source>Enable fetching RSS feeds</source>
-        <translation>Ativar a busca de feeds RSS</translation>
+        <translation>Ativar a procura de fontes RSS</translation>
     </message>
     <message>
         <source>Peer turnover threshold percentage:</source>
@@ -1504,11 +1504,11 @@
     </message>
     <message>
         <source>RSS Reader</source>
-        <translation>Leitor de RSS</translation>
+        <translation>Leitor RSS</translation>
     </message>
     <message>
         <source>Edit auto downloading rules...</source>
-        <translation>Editar regras de transferência automática...</translation>
+        <translation>Editar regras da transferência automática...</translation>
     </message>
     <message>
         <source>Download REPACK/PROPER episodes</source>
@@ -1516,7 +1516,7 @@
     </message>
     <message>
         <source>Feeds refresh interval:</source>
-        <translation>Intervalo de atualização de feeds:</translation>
+        <translation>Intervalo de atualização das fontes:</translation>
     </message>
     <message>
         <source>Peer turnover disconnect percentage:</source>
@@ -1524,7 +1524,7 @@
     </message>
     <message>
         <source>Maximum number of articles per feed:</source>
-        <translation>Número máximo de artigos por feed:</translation>
+        <translation>Número máximo de artigos por fonte:</translation>
     </message>
     <message>
         <source> min</source>
@@ -1584,7 +1584,7 @@
     </message>
     <message>
         <source>Random</source>
-        <translation>Aleatório</translation>
+        <translation>Aleatória</translation>
     </message>
     <message>
         <source>%K: Torrent ID</source>
@@ -1616,7 +1616,7 @@
     </message>
     <message>
         <source>Set to 0 to let your system pick an unused port</source>
-        <translation>Ao definir como 0 permite que o seu sistema utilize uma porta não utlizada</translation>
+        <translation>Definir para 0 para deixar o seu sistema escolher uma porta não utilizada</translation>
     </message>
     <message>
         <source>Server-side request forgery (SSRF) mitigation:</source>
@@ -1688,7 +1688,7 @@
     </message>
     <message>
         <source>Excluded file names</source>
-        <translation>Nomes de ficheiros excluídos</translation>
+        <translation>Nomes de ficheiro excluídos</translation>
     </message>
     <message>
         <source>Support internationalized domain name (IDN):</source>
@@ -1764,7 +1764,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Backup the log file after:</source>
-        <translation>Fazer cópia de segurança do ficheiro de registo após:</translation>
+        <translation>Fazer backup do ficheiro de registo após:</translation>
     </message>
     <message>
         <source>days</source>
@@ -1776,7 +1776,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Delete backup logs older than:</source>
-        <translation>Eliminar registos de cópias de segurança anteriores a:</translation>
+        <translation>Eliminar registos de backup anteriores a:</translation>
     </message>
     <message>
         <source>Use proxy for BitTorrent purposes</source>
@@ -2040,7 +2040,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Automatically append these trackers to new downloads:</source>
-        <translation type="unfinished" />
+        <translation>Automaticamente adicionar estes rastreadores às novas transferências:</translation>
     </message>
     <message>
         <source>Downloading torrents:</source>
@@ -2088,7 +2088,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Torrent content removing mode:</source>
-        <translation type="unfinished" />
+        <translation>Modo de remoção de conteúdo do torrent:</translation>
     </message>
     <message>
         <source>Move files to trash (if possible)</source>
@@ -2260,7 +2260,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     <message>
         <source>Downloaded</source>
         <comment>i.e: total data downloaded</comment>
-        <translation>Descarregado</translation>
+        <translation>Transferido</translation>
     </message>
     <message>
         <source>Uploaded</source>
@@ -2279,11 +2279,11 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Ban peer permanently</source>
-        <translation>Banir par permanentemente</translation>
+        <translation>Banir fonte permanentemente</translation>
     </message>
     <message>
         <source>Are you sure you want to permanently ban the selected peers?</source>
-        <translation>Banir permanentemente os pares selecionados?</translation>
+        <translation>Tem a certeza que deseja banir permanentemente as fontes selecionadas?</translation>
     </message>
     <message>
         <source>Copy IP:port</source>
@@ -2295,7 +2295,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Add peers...</source>
-        <translation>Adicionar pares...</translation>
+        <translation>Adicionar peers...</translation>
     </message>
     <message>
         <source>Peer ID Client</source>
@@ -2340,11 +2340,11 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Trackers</source>
-        <translation>Trackers</translation>
+        <translation>Rastreadores</translation>
     </message>
     <message>
         <source>Peers</source>
-        <translation>Pares</translation>
+        <translation>Fontes</translation>
     </message>
     <message>
         <source>HTTP Sources</source>
@@ -2359,7 +2359,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     <name>PropertiesWidget</name>
     <message>
         <source>Downloaded:</source>
-        <translation>Descarregado:</translation>
+        <translation>Transferido:</translation>
     </message>
     <message>
         <source>Transfer</source>
@@ -2376,7 +2376,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Uploaded:</source>
-        <translation>Enviados:</translation>
+        <translation>Enviado:</translation>
     </message>
     <message>
         <source>Seeds:</source>
@@ -2384,23 +2384,23 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Download Speed:</source>
-        <translation>Vel. de download:</translation>
+        <translation>Vel. de transferência:</translation>
     </message>
     <message>
         <source>Upload Speed:</source>
-        <translation>Vel. de upload:</translation>
+        <translation>Vel. de envio:</translation>
     </message>
     <message>
         <source>Peers:</source>
-        <translation>Pares:</translation>
+        <translation>Fontes:</translation>
     </message>
     <message>
         <source>Download Limit:</source>
-        <translation>Limite de download:</translation>
+        <translation>Limite de transferência:</translation>
     </message>
     <message>
         <source>Upload Limit:</source>
-        <translation>Limite de upload:</translation>
+        <translation>Limite do envio:</translation>
     </message>
     <message>
         <source>Wasted:</source>
@@ -2424,7 +2424,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Reannounce In:</source>
-        <translation>Reanunciar em:</translation>
+        <translation>Novo anúncio em:</translation>
     </message>
     <message>
         <source>Last Seen Complete:</source>
@@ -2516,7 +2516,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Progress:</source>
-        <translation>Progresso:</translation>
+        <translation>Evolução:</translation>
     </message>
     <message>
         <source>Use regular expressions</source>
@@ -2677,7 +2677,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Read cache hits:</source>
-        <translation>Tops de leituras da cache:</translation>
+        <translation>Ler os tops da cache:</translation>
     </message>
     <message>
         <source>Average time in queue:</source>
@@ -2685,7 +2685,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Connected peers:</source>
-        <translation>Pares ligados:</translation>
+        <translation>Fontes ligadas:</translation>
     </message>
     <message>
         <source>All-time share ratio:</source>
@@ -2701,7 +2701,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>All-time upload:</source>
-        <translation>Uploads globais:</translation>
+        <translation>Envios totais:</translation>
     </message>
     <message>
         <source>Total buffer size:</source>
@@ -2756,15 +2756,15 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Active (0)</source>
-        <translation>Ativos (0)</translation>
+        <translation>Ativo(s) (0)</translation>
     </message>
     <message>
         <source>Inactive (0)</source>
-        <translation>Inativos (0)</translation>
+        <translation>Inativo(s) (0)</translation>
     </message>
     <message>
         <source>Errored (0)</source>
-        <translation>Com erro (0)</translation>
+        <translation>Com erros (0)</translation>
     </message>
     <message>
         <source>All (%1)</source>
@@ -2784,19 +2784,19 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Active (%1)</source>
-        <translation>Ativos (%1)</translation>
+        <translation>Ativo(s) (%1)</translation>
     </message>
     <message>
         <source>Inactive (%1)</source>
-        <translation>Inativos (%1)</translation>
+        <translation>Inativo(s) (%1)</translation>
     </message>
     <message>
         <source>Errored (%1)</source>
-        <translation>Com erro (%1)</translation>
+        <translation>Com erros (%1)</translation>
     </message>
     <message>
         <source>Stalled Uploading (%1)</source>
-        <translation>Upload parado (%1)</translation>
+        <translation>Envio parado (%1)</translation>
     </message>
     <message>
         <source>Stalled Downloading (%1)</source>
@@ -2812,7 +2812,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Stalled Uploading (0)</source>
-        <translation>Upload parado (0)</translation>
+        <translation>Envio parado (0)</translation>
     </message>
     <message>
         <source>Stalled (%1)</source>
@@ -2891,7 +2891,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     <message>
         <source>Peers</source>
         <comment>i.e. partial sources (often untranslated)</comment>
-        <translation>Pares</translation>
+        <translation>Fontes</translation>
     </message>
     <message>
         <source>Down Speed</source>
@@ -2929,7 +2929,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     <message>
         <source>Completed On</source>
         <comment>Torrent was completed on 01/01/2010 08:00</comment>
-        <translation>Concluído em</translation>
+        <translation>Terminado em</translation>
     </message>
     <message>
         <source>Tracker</source>
@@ -2938,7 +2938,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     <message>
         <source>Down Limit</source>
         <comment>i.e: Download limit</comment>
-        <translation>Limite de downloads</translation>
+        <translation>Limite de transferências</translation>
     </message>
     <message>
         <source>Up Limit</source>
@@ -2948,7 +2948,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     <message>
         <source>Downloaded</source>
         <comment>Amount of data downloaded (e.g. in MB)</comment>
-        <translation>Descarregado</translation>
+        <translation>Transferido</translation>
     </message>
     <message>
         <source>Uploaded</source>
@@ -2963,7 +2963,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     <message>
         <source>Session Upload</source>
         <comment>Amount of data uploaded since program open (e.g. in MB)</comment>
-        <translation>Dados enviados</translation>
+        <translation>Enviado na sessão</translation>
     </message>
     <message>
         <source>Remaining</source>
@@ -2983,7 +2983,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     <message>
         <source>Completed</source>
         <comment>Amount of data completed (e.g. in MB)</comment>
-        <translation>Terminado</translation>
+        <translation>Terminado(s)</translation>
     </message>
     <message>
         <source>Ratio Limit</source>
@@ -3050,7 +3050,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Peers</source>
-        <translation>Pares</translation>
+        <translation>Fontes</translation>
     </message>
     <message>
         <source>Message</source>
@@ -3078,7 +3078,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>N/A</source>
-        <translation>N/D</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>Seeds</source>
@@ -3098,7 +3098,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Tracker editing</source>
-        <translation>Editar tracker</translation>
+        <translation>A editar tracker</translation>
     </message>
     <message>
         <source>Leeches</source>
@@ -3138,7 +3138,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Times Downloaded</source>
-        <translation>Número de vezes transferido</translation>
+        <translation>Número de vezes baixado</translation>
     </message>
     <message>
         <source>Add trackers...</source>
@@ -3193,7 +3193,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     <name>TrackersAdditionDialog</name>
     <message>
         <source>List of trackers to add (one per line):</source>
-        <translation>Lista de trackers a adicionar (um por linha):</translation>
+        <translation>Lista de rastreadores a adicionar (um por linha):</translation>
     </message>
     <message>
         <source>Add trackers</source>
@@ -3296,7 +3296,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Trackers</source>
-        <translation>Trackers</translation>
+        <translation>Rastreadores</translation>
     </message>
     <message>
         <source>Collapse/expand</source>
@@ -3477,7 +3477,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Force Start</source>
-        <translation type="unfinished" />
+        <translation>Forçar início</translation>
     </message>
     <message>
         <source>Location:</source>
@@ -3493,7 +3493,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Start</source>
-        <translation type="unfinished" />
+        <translation>Iniciar</translation>
     </message>
     <message>
         <source>New name:</source>
@@ -3633,12 +3633,12 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     <message>
         <source>%1h %2m</source>
         <comment>e.g: 3hours 5minutes</comment>
-        <translation>%1h e %2m</translation>
+        <translation>%1 h e %2 m</translation>
     </message>
     <message>
         <source>%1d %2h</source>
         <comment>e.g: 2days 10hours</comment>
-        <translation>%1d e %2h</translation>
+        <translation>%1 d e %2 h</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -3782,7 +3782,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Start a search above.</source>
-        <translation type="unfinished" />
+        <translation>Inicie uma pesquisa acima.</translation>
     </message>
     <message>
         <source>Max size prefix</source>
@@ -3898,11 +3898,11 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Add Peers</source>
-        <translation>Adicionar pares</translation>
+        <translation>Adicionar fontes</translation>
     </message>
     <message>
         <source>List of peers to add (one IP per line):</source>
-        <translation>Lista de pares a adicionar (um IP por linha):</translation>
+        <translation>Lista de fontes a adicionar (um IP por linha):</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -3967,7 +3967,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     <name>AboutDialog</name>
     <message>
         <source>Bug Tracker:</source>
-        <translation>Tracker de erros:</translation>
+        <translation>Bug Tracker:</translation>
     </message>
     <message>
         <source>About</source>
@@ -3999,7 +3999,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar.</source>
-        <translation>Um cliente avançado de BitTorrent programado em C++, baseado em ferramentas QT e em libtorrent-rasterbar.</translation>
+        <translation>Um cliente avançado de BitTorrent programado em C++, baseado em ferramentas QT e em 'libtorrent-rasterbar'.</translation>
     </message>
     <message>
         <source>Name:</source>
@@ -4031,7 +4031,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
-        <translation>A base de dados gratuita de IPs para Country Lite da DB-IP é utilizada para resolver os países dos pares. A base de dados está licenciada sob a licença internacional Creative Commons Attribution 4.0</translation>
+        <translation>A base de dados gratuita de IPs para Country Lite da DB-IP é utilizada para resolver os países das fontes. A base de dados está licenciada sob a licença internacional Creative Commons Attribution 4.0</translation>
     </message>
     <message>
         <source>Authors</source>
@@ -4139,47 +4139,47 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Please choose a new name for this RSS feed</source>
-        <translation>Por favor, escolha um novo nome para este feed RSS</translation>
+        <translation>Por favor escolha um novo nome para esta fonte RSS</translation>
     </message>
     <message>
         <source>Please choose a folder name</source>
-        <translation>Por favor, escolha um nome de pasta</translation>
+        <translation>Por favor, escolha o nome da pasta</translation>
     </message>
     <message>
         <source>New feed name:</source>
-        <translation>Novo nome do feed:</translation>
+        <translation>Novo nome da fonte:</translation>
     </message>
     <message>
         <source>Update all</source>
-        <translation>Atualizar todos</translation>
+        <translation>Atualizar tudo</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Remover</translation>
+        <translation>Eliminar</translation>
     </message>
     <message>
         <source>RSS Downloader...</source>
-        <translation>Transferidor RSS...</translation>
+        <translation>Downloader de RSS...</translation>
     </message>
     <message>
         <source>Mark items read</source>
-        <translation>Assinalar itens como lidos</translation>
+        <translation>Marcar itens como lidos</translation>
     </message>
     <message>
         <source>Update all feeds</source>
-        <translation>Atualizar todos os feeds</translation>
+        <translation>Atualizar todas as fontes</translation>
     </message>
     <message>
         <source>Copy feed URL</source>
-        <translation>Copiar URL do feed</translation>
+        <translation>Copiar URL da fonte</translation>
     </message>
     <message>
         <source>Torrents: (double-click to download)</source>
-        <translation>Torrents: (duplo clique para transferir)</translation>
+        <translation>Torrents: (duplo clique para fazer o download)</translation>
     </message>
     <message>
         <source>Open news URL</source>
-        <translation>Abrir URL de notícias</translation>
+        <translation>Abrir URL</translation>
     </message>
     <message>
         <source>Rename...</source>
@@ -4187,7 +4187,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Feed URL:</source>
-        <translation>URL do feed:</translation>
+        <translation>URL fonte:</translation>
     </message>
     <message>
         <source>New folder...</source>
@@ -4207,11 +4207,11 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Please type a RSS feed URL</source>
-        <translation>Por favor, escreva uma URL de feed RSS</translation>
+        <translation>Por favor, introduza um URL com fonte RSS</translation>
     </message>
     <message>
         <source>Fetching of RSS feeds is disabled now! You can enable it in application settings.</source>
-        <translation>A procura de feeds RSS está agora desativada! Pode ativá-la nas definições do programa.</translation>
+        <translation>A procura de fontes RSS está agora desativada! Você pode ativá-la nas definições da aplicação.</translation>
     </message>
     <message>
         <source>Deletion confirmation</source>
@@ -4219,7 +4219,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Are you sure you want to delete the selected RSS feeds?</source>
-        <translation>Tem a certeza de que deseja eliminar os feeds RSS selecionados?</translation>
+        <translation>Tem a certeza de que deseja eliminar as fontes RSS selecionadas?</translation>
     </message>
     <message>
         <source>New subscription...</source>
@@ -4227,7 +4227,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Download torrent</source>
-        <translation>Descarregar torrent</translation>
+        <translation>Fazer o download do torrent</translation>
     </message>
     <message>
         <source>Edit feed URL...</source>
@@ -4258,23 +4258,23 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     <name>AutomatedRssDownloader</name>
     <message>
         <source>Download Rules</source>
-        <translation>Regras de transferência</translation>
+        <translation>Regras para transferir</translation>
     </message>
     <message>
         <source>Matching RSS Articles</source>
-        <translation>Artigos RSS correspondentes</translation>
+        <translation>Artigos RSS coincidentes</translation>
     </message>
     <message>
         <source>* to match zero or more of any characters</source>
-        <translation>* para corresponder a zero ou mais caracteres</translation>
+        <translation>* para igualar a zero ou mais caracteres</translation>
     </message>
     <message>
         <source> will match all articles.</source>
-        <translation> irá corresponder todos os artigos.</translation>
+        <translation> irá corresponder a todos os artigos.</translation>
     </message>
     <message>
         <source>Episode filter rules: </source>
-        <translation>Regras do filtro de episódios: </translation>
+        <translation>Regras para filtro de episódios: </translation>
     </message>
     <message>
         <source>Auto downloading of RSS torrents is disabled now! You can enable it in application settings.</source>
@@ -4302,11 +4302,11 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>? to match any single character</source>
-        <translation>? para corresponder a qualquer caracter único</translation>
+        <translation>? para corresponder a qualquer caracter</translation>
     </message>
     <message>
         <source>Matches articles based on episode filter.</source>
-        <translation>Corresponde a artigos baseados em filtros de episódios.</translation>
+        <translation>Correspondência de artigos tendo por base o filtro de episódios.</translation>
     </message>
     <message>
         <source>Assign Category:</source>
@@ -4314,11 +4314,11 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Regex mode: use Perl-compatible regular expressions</source>
-        <translation>Modo Regex: utilizar expressões regulares compatíveis com Perl</translation>
+        <translation>Modo regex: utilizar expressões regulares compatíveis com Perl</translation>
     </message>
     <message>
         <source>| is used as OR operator</source>
-        <translation>| é utilizado como operador OU (OR)</translation>
+        <translation>É utilizado como operador OU (OR)</translation>
     </message>
     <message>
         <source>Clear downloaded episodes</source>
@@ -4326,7 +4326,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Whitespaces count as AND operators (all words, any order)</source>
-        <translation>Espaços em branco contam como operadores E (AND) (todas as palavras, qualquer ordem)</translation>
+        <translation>Os espaços em branco contam como operadores AND (E) (todas as palavras, qualquer ordem)</translation>
     </message>
     <message>
         <source>An expression with an empty %1 clause (e.g. %2)</source>
@@ -4346,39 +4346,39 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Must Contain:</source>
-        <translation>Deve conter:</translation>
+        <translation>Deverá conter:</translation>
     </message>
     <message>
         <source>Infinite range: &lt;b&gt;1x25-;&lt;/b&gt; matches episodes 25 and upward of season one, and all episodes of later seasons</source>
-        <translation>Intervalo infinito: &lt;b&gt;1x25-;&lt;/b&gt; combina com os episódios 25 em diante da temporada um, e todos os episódios das temporadas posteriores</translation>
+        <translation>Limite infinito: &lt;b&gt;1x25-;&lt;/b&gt; corresponde os episódios 25 e superiores da temporada um, e a todos os episódios de temporadas posteriores</translation>
     </message>
     <message>
         <source>Save to a Different Directory</source>
-        <translation>Guardar numa pasta diferente</translation>
+        <translation>Guardar noutra diretoria</translation>
     </message>
     <message>
         <source>Must Not Contain:</source>
-        <translation>Não deve conter:</translation>
+        <translation>Não deverá conter:</translation>
     </message>
     <message>
         <source>Single number: &lt;b&gt;1x25;&lt;/b&gt; matches episode 25 of season one</source>
-        <translation>Número único: &lt;b&gt;1x25;&lt;/b&gt; corresponde ao episódio 25 da primeira temporada</translation>
+        <translation>Um número: &lt;b&gt;1x25;&lt;/b&gt; corresponde ao episódio 25 da temporada um</translation>
     </message>
     <message>
         <source>Three range types for episodes are supported: </source>
-        <translation>Três tipos de intervalo para episódios são suportados: </translation>
+        <translation>São suportados três tipos de intervalos para episódios: </translation>
     </message>
     <message>
         <source>Are you sure you want to remove the selected download rules?</source>
-        <translation>Tem a certeza de que quer remover as regras de transferência seleccionadas?</translation>
+        <translation>Tem a certeza de que quer remover as regras de transferência selecionadas?</translation>
     </message>
     <message>
         <source>Use global settings</source>
-        <translation>Utilizar definições gerais</translation>
+        <translation>Utilizar definições globais</translation>
     </message>
     <message>
         <source>Normal range: &lt;b&gt;1x25-40;&lt;/b&gt; matches episodes 25 through 40 of season one</source>
-        <translation>Intervalo normal: &lt;b&gt;1x25-40;&lt;/b&gt; corresponde aos episódios 25 a 40 da primeira temporada</translation>
+        <translation>Intervalo normal: &lt;b&gt;1x25-40;&lt;/b&gt; corresponde aos episódios 25 a 40 da temporada um</translation>
     </message>
     <message>
         <source>Please type the new rule name</source>
@@ -4386,7 +4386,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Rule renaming</source>
-        <translation>Renomeação de regra</translation>
+        <translation>Renomear regra</translation>
     </message>
     <message>
         <source>Always</source>
@@ -4394,7 +4394,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Episode number is a mandatory positive value</source>
-        <translation>O número do episódio é um valor positivo obrigatório</translation>
+        <translation>O número de episódio tem de ser obrigatóriamente positivo</translation>
     </message>
     <message>
         <source> will match 2, 5, 8 through 15, 30 and onward episodes of season one</source>
@@ -4418,7 +4418,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Season number is a mandatory non-zero value</source>
-        <translation>Número da temporada é um valor obrigatório diferente de zero</translation>
+        <translation>O número de temporada tem que ser um valor positivo</translation>
     </message>
     <message>
         <source>Never</source>
@@ -4426,7 +4426,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Apply Rule to Feeds:</source>
-        <translation>Aplicar regra aos feeds:</translation>
+        <translation>Aplicar regra às fontes:</translation>
     </message>
     <message>
         <source> days</source>
@@ -4434,7 +4434,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Use Smart Episode Filter</source>
-        <translation>Utilizar filtro inteligente de episódios</translation>
+        <translation>Utilizar o 'Filtro inteligente de episódios'</translation>
     </message>
     <message>
         <source>If word order is important use * instead of whitespace.</source>
@@ -4442,15 +4442,15 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Please type the name of the new download rule.</source>
-        <translation>Por favor, escreva o nome da nova regra de transferência.</translation>
+        <translation>Escreva o nome da nova regra para transferências.</translation>
     </message>
     <message>
         <source>Wildcard mode: you can use</source>
-        <translation>Modo asterisco: pode utilizar</translation>
+        <translation>Modo 'Wildcard': você pode utilizar</translation>
     </message>
     <message>
         <source> will exclude all articles.</source>
-        <translation> irá eliminar todos os artigos.</translation>
+        <translation> irá excluir todos os artigos.</translation>
     </message>
     <message>
         <source>Delete rule</source>
@@ -4458,7 +4458,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Ignore Subsequent Matches for (0 to Disable)</source>
-        <translation>Ignorar correspondências subsequentes por (0 para Desativar)</translation>
+        <translation>Ignorar ocorrências subsequentes para (0 para desativar)</translation>
     </message>
     <message>
         <source>Rename rule...</source>
@@ -4466,7 +4466,7 @@ Utilize ';' para dividir várias entradas. Pode usar o asterisco '*'.</translati
     </message>
     <message>
         <source>Last Match: Unknown</source>
-        <translation>Última correspondência: Desconhecida</translation>
+        <translation>Última correspondência: desconhecida</translation>
     </message>
     <message>
         <source>Clear downloaded episodes...</source>
@@ -4508,7 +4508,7 @@ Suporta os formatos: S01E01, 1x1, 2017.12.31 e 31.12.2017 (Suporte também para 
     </message>
     <message>
         <source>Add Stopped:</source>
-        <translation type="unfinished" />
+        <translation>Adicionar parado(s):</translation>
     </message>
 </context>
 <context>
@@ -4554,7 +4554,7 @@ Suporta os formatos: S01E01, 1x1, 2017.12.31 e 31.12.2017 (Suporte também para 
     <name>FeedListWidget</name>
     <message>
         <source>RSS feeds</source>
-        <translation>RSS feeds</translation>
+        <translation>Fontes RSS</translation>
     </message>
     <message>
         <source>Unread</source>
