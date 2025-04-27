@@ -1380,7 +1380,7 @@
     </message>
     <message>
         <source>Recheck torrents on completion:</source>
-        <translation>Při dokončení překontrolovat torrenty:</translation>
+        <translation>Překontrolování torrentů po dokončení:</translation>
     </message>
     <message>
         <source>Allow encryption</source>

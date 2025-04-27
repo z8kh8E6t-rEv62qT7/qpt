@@ -207,7 +207,7 @@
     </message>
     <message>
         <source>Uncategorized</source>
-        <translation>Okategoriserad</translation>
+        <translation>Utan kategorier</translation>
     </message>
 </context>
 <context>
