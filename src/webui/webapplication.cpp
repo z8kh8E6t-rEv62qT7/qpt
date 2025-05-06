@@ -470,12 +470,8 @@ void WebApplication::configure()
     m_isLocalAuthEnabled = pref->isWebUILocalAuthEnabled();
     m_isAuthSubnetWhitelistEnabled = pref->isWebUIAuthSubnetWhitelistEnabled();
     m_authSubnetWhitelist = pref->getWebUIAuthSubnetWhitelist();
-    m_sessionTimeout = std::chrono::seconds(pref->getWebUISessionTimeout());
-    m_sessionCookieName = SESSION_COOKIE_NAME_PREFIX + QString::number(pref->getWebUIPort());
-
-    // all sessions need to update the cookie expiration date
-    for (WebSession *session : asConst(m_sessions))
-        session->setCookieRefreshTime(0s);
+    m_sessionTimeout = pref->getWebUISessionTimeout();
+    m_cookieExpirationEnabled = pref->isCookieExpirationEnabled();
 
     m_domainList = pref->getServerDomains().split(u';', Qt::SkipEmptyParts);
     for (QString &entry : m_domainList)
@@ -853,8 +849,17 @@ void WebApplication::sessionStartImpl(const QString &sessionId, const bool useCo
     connect(btSession, &BitTorrent::Session::freeDiskSpaceChecked, syncController, &SyncController::updateFreeDiskSpace);
     m_currentSession->registerAPIController(u"sync"_s, syncController);
 
-    if (useCookie)
-        setSessionCookie();
+    QNetworkCookie cookie {m_sessionCookieName.toLatin1(), m_currentSession->id().toLatin1()};
+    cookie.setHttpOnly(true);
+    cookie.setSecure(m_isSecureCookieEnabled && isOriginTrustworthy());  // [rfc6265] 4.1.2.5. The Secure Attribute
+    cookie.setPath(u"/"_s);
+    if (m_cookieExpirationEnabled)
+        cookie.setExpirationDate(QDateTime::currentDateTime().addSecs(m_sessionTimeout));
+    if (m_isCSRFProtectionEnabled)
+        cookie.setSameSitePolicy(QNetworkCookie::SameSite::Strict);
+    else if (cookie.isSecure())
+        cookie.setSameSitePolicy(QNetworkCookie::SameSite::None);
+    setHeader({Http::HEADER_SET_COOKIE, QString::fromLatin1(cookie.toRawForm())});
 }
 
 void WebApplication::sessionEnd()
