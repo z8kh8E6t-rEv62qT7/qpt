@@ -1118,7 +1118,6 @@ void OptionsDialog::saveSpeedTabOptions() const
 void OptionsDialog::loadBittorrentTabOptions()
 {
     const auto *session = BitTorrent::Session::instance();
-    const auto *pref = Preferences::instance();
 
     m_ui->checkDHT->setChecked(session->isDHTEnabled());
     m_ui->checkPeX->setChecked(session->isPeXEnabled());
