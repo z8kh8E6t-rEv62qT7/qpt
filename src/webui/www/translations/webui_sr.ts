@@ -566,6 +566,14 @@
         <source>Peer DSCP must be between 0 and 255.</source>
         <translation type="unfinished" />
     </message>
+    <message>
+        <source>Share ratio limit must not have a negative value.</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Seeding time limit must not have a negative value.</source>
+        <translation type="unfinished" />
+    </message>
 </context>
 <context>
     <name>MainWindow</name>
