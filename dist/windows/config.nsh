@@ -82,10 +82,10 @@ SetCompressorDictSize 64
 !define MUI_FINISHPAGE_RUN_TEXT $(launch_qbt)
 
 ; The name of the installer
-Name "qBittorrent Enhanced ${QBT_INSTALLER_WINDOWNAME}"
+Name "qBittorrent ${QBT_INSTALLER_WINDOWNAME}"
 
 ; The file to write
-OutFile "qbittorrent_enhanced_${QBT_INSTALLER_FILENAME}_setup.exe"
+OutFile "qbittorrent_${QBT_INSTALLER_FILENAME}_setup.exe"
 
 ;Installer Version Information
 VIAddVersionKey "ProductName" "qBittorrent"
