@@ -5898,7 +5898,11 @@ void SessionImpl::readAlerts()
 
     int previousAlertType = -1;
     qsizetype alertSequenceSize = 0;
+<<<<<<< HEAD
     for (lt::alert *a : m_alerts)
+=======
+    for (const lt::alert *a : m_alerts)
+>>>>>>> 571094cc9 (Don't change the processing order of alerts of different types)
     {
         const int alertType = a->type();
         if ((alertType != previousAlertType) && (previousAlertType != -1))
