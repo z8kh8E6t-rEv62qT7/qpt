@@ -5954,7 +5954,7 @@ void SessionImpl::handleAlert(const lt::alert *alert)
             handleTorrentFinishedAlert(static_cast<const lt::torrent_finished_alert *>(alert));
             break;
         case lt::save_resume_data_alert::alert_type:
-            handleSaveResumeDataAlert(static_cast<lt::save_resume_data_alert *>(alert));
+            handleSaveResumeDataAlert(static_cast<const lt::save_resume_data_alert *>(alert));
             break;
         case lt::save_resume_data_failed_alert::alert_type:
             handleSaveResumeDataFailedAlert(static_cast<const lt::save_resume_data_failed_alert *>(alert));
@@ -6587,7 +6587,7 @@ void SessionImpl::handleTorrentFinishedAlert([[maybe_unused]] const lt::torrent_
         torrent->handleTorrentFinished();
 }
 
-void SessionImpl::handleSaveResumeDataAlert(lt::save_resume_data_alert *alert)
+void SessionImpl::handleSaveResumeDataAlert(const lt::save_resume_data_alert *alert)
 {
     // The torrent can be deleted between the time the resume data was requested and
     // the time we received the appropriate alert. We have to decrease `m_numResumeData` anyway,
