@@ -596,7 +596,7 @@ namespace BitTorrent
         void updateSeedingLimitTimer();
         void exportTorrentFile(const Torrent *torrent, const Path &folderPath);
 
-        void handleAlert(lt::alert *alert);
+        void handleAlert(const lt::alert *alert);
         void handleAddTorrentAlert(const lt::add_torrent_alert *alert);
         void handleStateUpdateAlert(const lt::state_update_alert *alert);
         void handleMetadataReceivedAlert(const lt::metadata_received_alert *alert);
