@@ -5927,7 +5927,7 @@ void SessionImpl::handleAddTorrentAlert(const lt::add_torrent_alert *alert)
         handleAlert(alert);
 }
 
-void SessionImpl::handleAlert(lt::alert *alert)
+void SessionImpl::handleAlert(const lt::alert *alert)
 {
     try
     {
