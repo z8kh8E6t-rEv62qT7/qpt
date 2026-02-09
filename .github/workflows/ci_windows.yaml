@@ -218,22 +218,3 @@ jobs:
         with:
           name: qBittorrent-CI_Windows-${{ matrix.config.arch }}_libtorrent-${{ matrix.libtorrent.version }}
           path: upload
-<<<<<<< HEAD
-
-      - name: Install NSIS
-        uses: repolevedavaj/install-nsis@a55ed92772254d1e51d880f85ce9b5719f907801 # v1.1.0
-        with:
-          nsis-version: '3.11'
-
-      - name: Create installer
-        run: |
-          7z x -o"dist/windows/" "dist/windows/NSISPlugins.zip"
-          makensis /DQBT_CPU_ARCH="${{ matrix.config.arch }}" /DQBT_DIST_DIR="../../upload/qBittorrent" /WX dist/windows/qbittorrent.nsi
-
-      - name: Upload installer
-        uses: actions/upload-artifact@v6
-        with:
-          name: qBittorrent-CI_Windows-${{ matrix.config.arch }}_libtorrent-${{ matrix.libtorrent.version }}-setup
-          path: dist/windows/qbittorrent_*_setup.exe
-=======
->>>>>>> 85c14c22e (version)
